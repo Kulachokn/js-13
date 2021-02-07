@@ -18,3 +18,16 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+
+.gallery {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  grid-gap: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
