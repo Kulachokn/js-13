@@ -1,7 +1,9 @@
 {{#each this}}
   <li class="photo-card">
-    <img src="{{webformatURL}}" alt="{{tags}}" width="400" />
-
+    <img src="{{webformatURL}}"
+         alt="{{tags}}"
+         data-src="{{largeImageURL}}"
+         width="400" />
     <div class="stats">
       <p class="stats-item">
         <i class="material-icons">thumb_up</i>
